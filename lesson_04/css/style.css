@@ -1,0 +1,152 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {background-color: rgba(20, 21, 21, 0.91); 
+  color:rgb(80, 106, 129);
+}  
+.logo {background-color:rgba(126, 194, 126, 0);
+      height: 35px;    
+      text-align: center;
+      font-family:"Philosopher", sans-serif;
+      font-size:200%; 
+      color: #744b9c;
+      letter-spacing: 16px;
+}
+.info{background-color: rgba(141, 180, 141, 0.87);
+    height: 2em;
+    padding: 20px;
+    margin-bottom: 8px;
+}
+.info a{ font-family: "Philosopher", sans-serif; 
+         font-size:100%; 
+} 
+.author p{text-align: center;
+    font-family:"Great Vibes", serif;
+    font-size: 40px;
+    color:#c27ba0 ;
+    text-shadow:#fc0 1px 0 18px; 
+}  
+h1{ text-align: center;
+  font-family: "Barox", serif;
+  font-size: 45px;
+  text-shadow: #e0f808bb 1px 0 10px;
+  color:#c27ba0;
+  margin-bottom: 1px; 
+  text-transform: uppercase;
+}
+h2{ text-align: center;
+  font-family:"Great Vibes", serif;
+  font-size: 18px;
+  color:#3b5268;
+  text-transform: uppercase;
+  text-shadow: 0px -2px rgb(128, 123, 4); 
+}
+#right{text-align: right;
+  margin-block-start: 1em;  
+  margin-inline-end: 1em;   
+}
+.mention p{font-family:"Philosopher", sans-serif;
+  font-size: 18px;
+  font-weight: 200; 
+  font-style: italic;
+  color:#506a81;
+  }
+p > b{font-family: "Dansing Script", serif;
+  font-weight: 200; 
+  font-style: italic;
+  color:#3c5854;
+  letter-spacing: 0.2rem;
+}
+div + p::first-letter{
+  font-family: "Great Vibes", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color:#5f0935; 
+  margin-left: 2ex; 
+}
+div + p{ font-family:"Philosopher", sans-serif;
+  font-size: 18px;
+  color:#6a921a;
+} 
+.text{ font-family: "Great Vibes", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 22px;
+  text-decoration: wavy underline rgba(63, 79, 104, 0.24);
+  color:#6a921a;
+}
+.content{font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: oblique 5deg;
+  font-size: 18px;
+} 
+.select ~ b {
+  text-transform: capitalize;
+  color: #6a887a;
+}
+a[href="https://www.ukrlib.com.ua/books/printit.php?tid=76#:~:text=%E2%80%94%20%D0%9E%2C%20%D0%B2%D0%B8%20%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D1%82%D0%B5%20%D1%81%D1%82%D0%B8%D0%BF%D0%B5%D0%BD%D0%B4%D1%96%D1%8E!%20%D0%92%D0%B8%20%D1%82%D0%B0%D0%BA%D0%B8%D0%B9%20%D0%B7%D0%BD%D0%B0%D1%8E%D1%87%D0%B8%D0%B9!"]
+{ text-decoration: dashed underline overline rgba(137, 138, 108, 0.726);
+  font-family:"Dansing Script", sans-serif;
+  background-color: #99955834;
+  color:#73917e;
+}
+.banner{ text-align: center;
+         font-family: "Dansing Script", serif;
+         font-weight: 700;
+         font-size: 25px;
+         letter-spacing: 0.3rem;
+         color:#8f8452;
+         background:linear-gradient(0.25turn, #2da146, #ebf8e125, #6e32b3);
+} 
+#paragraph{ text-align: center;
+            font-family: "Poppins", sans-serif; 
+            font-weight: 500; 
+            font-style:italic;
+            font-size: 13pt;
+            line-height: 120%;
+            color:#858650;
+}
+#topic{font-family: "Barox", serif;
+  font-weight:unset; 
+  font-style:normal; 
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 0.1rem;
+  color: #858650;
+}
+#article{font-family: "Poppins", sans-serif; 
+  font-weight: 700; 
+  font-style:oblique;
+  font-size: 17px;
+  transform: scaleY(-1);
+  color:#574d5f; 
+} 
+p > span{
+  font-weight: 700;
+  color:#6d6749;
+}
+span.sentence{text-transform: uppercase;
+  text-decoration: solid underline rgba(90, 89, 35, 0.384) 2px;
+  word-spacing: -0.4ch;
+  color:#647e37; 
+}
+span.phrase{text-transform: lowercase;
+  word-spacing: 5px;
+  color:#567542;
+}
+span.word{
+  color:#807d4e;
+} 
+span.sorted{
+  color:#656891;
+}
+#block-1 p{font-family: "Barox", serif;
+  text-transform:uppercase;
+  color:#daa520;
+}
+#block-1 span{font-family: 'Courier New', Courier, monospace;
+  text-transform: lowercase ;
+  text-decoration: line-through;
+  color: #000000;
+}
