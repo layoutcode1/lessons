@@ -59,8 +59,7 @@ h2{
   font-size: 18px;
   font-weight: 200; 
   font-style: italic;
-  color: #506a81;
-  }
+}
 p > b{
   font-family: "Dansing Script", serif;
   font-weight: 200; 
@@ -137,7 +136,7 @@ a[href="https://www.ukrlib.com.ua/books/printit.php?tid=76#:~:text=%E2%80%94%20%
   font-style:oblique;
   font-size: 17px;
   transform: scaleY(-1);
-  color: #8f7e9c; 
+  color: #8e77a0; 
 } 
 p > span{
   font-weight: 700;
