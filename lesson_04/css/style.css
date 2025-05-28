@@ -17,8 +17,8 @@ body {
   margin-bottom: -1px;
 }
 .info{
-  background-color: rgba(141, 180, 141, 0.87);
-  height: 2em;
+  background-color: rgba(97, 117, 97, 0.493);
+  height: 1em;
   padding: 25px;
   margin-bottom: 8px;
 }
@@ -72,7 +72,7 @@ div + p::first-letter{
   font-family: "Great Vibes", serif;
   font-size: 2rem;
   font-weight: bold;
-  color: #b31365; 
+  color: #6970d3; 
   margin-left: 2ex; 
 }
 div + p{ 
@@ -155,7 +155,7 @@ span.phrase{
   color: #698f50;
 }
 span.word{
-  color: #a7a266;
+  color: #6970d3;
 } 
 span.sorted{
   color: #6970d3;
