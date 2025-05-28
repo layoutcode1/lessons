@@ -14,12 +14,12 @@ body {
   font-size:200%; 
   color: #744b9c;
   letter-spacing: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 6px;
 }
 .info{
   background-color: rgba(141, 180, 141, 0.87);
   height: 2em;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 8px;
 }
 .info a{ 
