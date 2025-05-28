@@ -11,7 +11,7 @@ body {
   height: 35px;    
   text-align: center;
   font-family:"Philosopher", sans-serif;
-  font-size:200%; 
+  font-size: 30px; 
   color: #744b9c;
   letter-spacing: 16px;
   margin-bottom: -1px;
@@ -24,7 +24,7 @@ body {
 }
 .info a{ 
   font-family: "Philosopher", sans-serif; 
-  font-size:100%; 
+  color: rgba(65, 2, 128, 0.725); 
 } 
 .author p{
   text-align: center;
