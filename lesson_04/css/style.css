@@ -14,11 +14,12 @@ body {
   font-size:200%; 
   color: #744b9c;
   letter-spacing: 16px;
+  margin-bottom: -1px;
 }
 .info{
   background-color: rgba(141, 180, 141, 0.87);
   height: 2em;
-  padding: 30px;
+  padding: 25px;
   margin-bottom: 8px;
 }
 .info a{ 
