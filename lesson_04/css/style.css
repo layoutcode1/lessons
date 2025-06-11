@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
   background-color: rgba(24, 26, 26, 0.91); 
-  color: rgb(120, 152, 180);
+  color: rgb(144, 183, 218);
 }  
 .logo {
   background-color:rgba(126, 194, 126, 0);
@@ -12,7 +12,7 @@ body {
   text-align: center;
   font-family:"Philosopher", sans-serif;
   font-size: 30px; 
-  color: #744b9c;
+  color: #9865cc;
   letter-spacing: 16px;
   margin-bottom: -1px;
 }
@@ -24,7 +24,7 @@ body {
 }
 .info a{ 
   font-family: "Philosopher", sans-serif; 
-  color: rgba(65, 2, 128, 0.725); 
+  color: rgba(78, 2, 153, 0.725); 
 } 
 .author p{
   text-align: center;
@@ -110,7 +110,7 @@ a[href="https://www.ukrlib.com.ua/books/printit.php?tid=76#:~:text=%E2%80%94%20%
   font-weight: 700;
   font-size: 25px;
   letter-spacing: 0.3rem;
-  color: #9e925b;
+  color: #c2b36e;
   background:linear-gradient(0.25turn, #2da146, #ebf8e125, #6e32b3);
 } 
 #paragraph{ 
