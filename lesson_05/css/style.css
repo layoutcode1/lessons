@@ -1,0 +1,184 @@
+@import url("reset.css");
+@import url("fonts.css");
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.header{
+    text-align: center;
+    background-color: #6656af;
+    margin-bottom: 4px;
+}
+.header h1 {
+    font-weight: 700;
+    font-size: 35px; 
+    color: #231F8B;
+    text-shadow: #000 2px 2px 3.2px;
+}
+.main{
+    height: 818px; 
+    max-width: 1920px; 
+    margin: 0 auto;  
+    background-color: #231F8B;
+    align-items: center;
+    overflow: hidden;
+}
+.main-section{
+    max-width: 1050px; 
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 112px 0px; 
+    color: #FFFFFF; 
+}
+.main-profile{
+    max-width: 765px; 
+    margin-bottom: 40px; 
+}
+.main-attainment{
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.71;
+    margin-bottom: 10px;
+    letter-spacing: 0.01em;
+    color: #5A54F2;
+}
+.main-product{
+    font-family: "CircularStd", sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        letter-spacing: 0.2px;
+}
+p::after{
+    display: block;
+}
+.main-purpose{
+    font-family: "CircularStd", sans-serif;
+        font-style: normal;
+        font-weight: 450;
+        letter-spacing: 0.2px;
+        line-height: 1.43; 
+        width: 765px;
+        height: 48px;
+}
+.main-options{
+    margin: 0 -15px;    
+    padding: 40px 0 0; 
+    width: 100%;
+    min-height: 360px;
+    max-width: 1050px; 
+    overflow: hidden;
+    font-size: 0;
+}
+.main-option{
+    width: 25%;
+    padding: 0 15px;
+    display: inline-block; 
+    vertical-align: top;
+}  
+.main-content{
+    padding: 35px 40px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    background-color: #FFFFFF;
+}
+.main-img{
+    margin-bottom: 20px;
+    height: 72px;
+    width: 72px;
+}
+.main-service{
+    font-family: "CircularStd", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+}
+.main-decor{
+    width: 50px;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: #e74040;
+}
+.main-option-text{
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.lower{
+    margin-top: 45px;
+}
+.upper-blue{
+    background-color: #5a54f2;
+}
+.upper-blue .main-option-text{
+    color: #FFFFFF;
+} 
+.bottom{
+    margin-top: 45px;
+}
+
+/* ===================================================PRACtice============================================================= */
+
+.main-area{
+    margin: 20px 0 20px 0;   
+    width: 100%;  
+    overflow: hidden;
+}   
+.cards {
+    padding: 100px 0; 
+    background-color: rgba(12, 28, 41, 0.993);
+}
+.cards-container {
+    max-width: 1320px;
+    margin: 0 auto;  
+    color: rgb(160, 66, 3); 
+}
+.cards-title {
+    margin-bottom: 30px;    
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: rgba(184, 74, 1, 0.952);
+    text-align: center;
+    text-shadow: #000 2px 2px 3.2px;
+}
+h3 {
+    font-family: "CircularStd", sans-serif;
+    color: rgb(189, 112, 77);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: #000 -2px 2px 3.2px;
+    margin-bottom: 60px; 
+}
+.cards-items {
+    margin: 0 -12px; 
+    font-size: 0;
+}
+.cards-item {
+    display: inline-block; 
+    padding: 12px 12px;
+}
+.cards-link {
+    max-width: 200px;
+    display: inline-block;
+}
+.cards-link img {
+    max-width: 100%;
+}
+.footer {
+    padding: 8px 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #04185c; 
+    text-shadow: #000 2px 2px 3.2px;
+    text-align: center;
+    background-color: #3f3c46; 
+}
