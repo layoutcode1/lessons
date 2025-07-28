@@ -1,0 +1,92 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Philosopher", serif;
+}
+.header__container {
+    text-align: center;
+    padding: 25px;
+    font-size: 1.9em;
+    text-shadow: #0000008c 2px 2px 3.2px;
+    margin-bottom: 40px;
+    background-color: #21630252;
+    letter-spacing: 0.1rem;
+}
+.page__conteiner{
+    padding: 0 15px 0 15px;
+    line-height: 1.5;
+}
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+ }
+
+ li {
+    flex: 1 1 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+ }
+.switchover-btn {
+    position: relative;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: rgb(240, 252, 200);
+    background: linear-gradient(15deg, #727c1a, #b2b382);
+    border: none;
+    border-radius: 23px; 
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(100, 91, 91, 0.3);
+    transition: all 0.4s ease;
+    margin-bottom: 10px;
+}
+.switchover-btn:hover {
+    transform: scale(1.05);
+}
+ .switchover-btn::before {
+    position: absolute;
+    top: -40%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+} 
+.switchover-btn:hover::before {
+    opacity: 1;
+} 
+.switchover-btn:active {
+    box-shadow: 0 0 9px rgb(126, 128, 23); 
+} 
+@media (max-width: 768px) {
+    ul {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 480px) {
+    ul {
+        margin-bottom: 10px;
+    }
+}
+#lists-container {
+    margin: 1rem;
+}
+.footer {
+    background-color: #21630252;
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
