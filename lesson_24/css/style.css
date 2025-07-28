@@ -26,6 +26,7 @@ body.loaded{
     border: 0.7mm solid rgba(10, 10, 10, 0.356);
     cursor: pointer;
     border-radius: 10px;
+    clip-path: inset(0 0 0 0 round 10px);
 }
 .item.active {
     background-color: #459aa0;
