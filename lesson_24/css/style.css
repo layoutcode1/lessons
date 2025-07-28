@@ -1,0 +1,49 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background-color: transparent;
+    transition: background-color 6s ease;
+    font-family: "Philosopher", serif;
+    color: #006eff;
+}
+body.loaded{
+    background-color: rgba(52, 134, 206, 0.336);
+}
+.header__container{
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5em;
+    text-shadow: #000000 2px 2px 3.2px;
+    margin-bottom: 40px; 
+    background-color: #022c53a4;
+    letter-spacing: 0.1rem;
+}
+.item {
+    padding: 10px 20px; 
+    margin: 5px;
+    border: 0.7mm solid rgba(10, 10, 10, 0.356);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.item.active {
+    background-color: #459aa0;
+}
+.box{
+    padding: 0 15px 0 15px;
+    color: rgb(0, 0, 0);  
+    line-height: 1.5;
+}
+.footer{
+    padding: 20px;
+    background-color: #022c53a4;
+    transition: background-color 0.5s ease;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 0.1rem;
+    text-shadow: #00000098 2px 2px 3.2px;
+}
+footer.active {
+    background-color:#673a8b44;
+}
