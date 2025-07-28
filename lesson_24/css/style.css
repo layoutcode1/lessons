@@ -27,7 +27,7 @@ body.loaded{
     cursor: pointer;
     border-radius: 10px;
     clip-path: inset(0 0 0 0 round 10px);
-    margin-bottom: 20px;
+    margin: 0 0 20px 15px;
 }
 .item.active {
     background-color: #459aa0;
