@@ -64,8 +64,5 @@ const object = document.querySelector('.object')
             startCounter()
         }
     })
-    if (isElementInViewport(object)) {
-        startCounter()
-    }
 }
 startCounterOnScroll()
