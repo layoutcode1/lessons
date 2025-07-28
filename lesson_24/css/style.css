@@ -9,7 +9,7 @@ body{
     color: #006eff;
 }
 body.loaded{
-    background-color: rgba(52, 134, 206, 0.336);
+    background-color: #000000 2px 2px 3.2px;
 }
 .header__container{
     text-align: center;
@@ -23,7 +23,7 @@ body.loaded{
 .item {
     padding: 10px 20px; 
     margin: 5px;
-    border: 0.7mm solid rgba(10, 10, 10, 0.356);
+    border: 0.7mm solid #0a0a0a5b;
     cursor: pointer;
     border-radius: 10px;
     clip-path: inset(0 0 0 0 round 10px);
