@@ -25,13 +25,19 @@ window.addEventListener('load', () => {
 })
 
 // Завдання #03
-const header = document.querySelector(`header`)
-const footer = document.querySelector(`footer`)
-header.addEventListener(`mouseover`, () => {
-    footer.classList.add(`active`)
- })
-header.addEventListener(`mouseout`, () => {
-    footer.classList.remove(`active`)
+document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('.header__container')
+    const footer = document.querySelector('footer')
+
+    if (header && footer) {
+        header.addEventListener('mouseover', () => {
+            footer.classList.add('active')
+        })
+
+        header.addEventListener('mouseout', () => {
+            footer.classList.remove('active')
+        })
+    }
 })
 
 // Завдання #04
