@@ -15,14 +15,6 @@ items.forEach(item => {
 })
 
 // Завдання #02
-// window.addEventListener('load', () => {
-//     document.body.classList.add('loaded')
-//     if (document.body.classList.contains(`loaded`)) {
-//         console.log('the loaded class was added')
-//     } else {
-//         console.log('failed to add')
-//     }
-// })
 document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('load', () => {
         document.body.classList.add('loaded')
@@ -33,8 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 })
-console.log('coloring is running...')
-
 
 // Завдання #03
 document.addEventListener('DOMContentLoaded', () => {
