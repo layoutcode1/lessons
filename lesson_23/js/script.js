@@ -44,6 +44,13 @@ function addListItemToUL(content) {
     li.innerHTML = content 
     ulElement.appendChild(li)
 }
+function enlargeImageOnClick() {
+    document.querySelectorAll('img').forEach(img => {
+        img.addEventListener('click', () => {
+            img.classList.toggle('enlarged')
+        })
+    })
+}
 
 addULWithLIs(5)
 
@@ -53,7 +60,7 @@ addListItemToUL('<img src="img/StockCake01.jpg" alt="image">')
 addListItemToUL('<a href="https://example.com">Link</a>')
 addListItemToUL('<a href="https://example.com/image.jpg" alt="Image"><a href="https://example.com">link</a></a>')
 addListItemToUL(`<img src="img/icon01.png" alt="ICon" class="icon">`)
-
+enlargeImageOnClick()
 
 // Завдання #03
 document.body.classList.add('loaded')
