@@ -73,7 +73,7 @@ const items = document.querySelectorAll('.item')
 
 // Завдання #05
 const button = document.getElementById('switchoverBtn')
-button.scrollIntoView({ behavior: `smooth` })
+button.scrollIntoView({ behavior: `smooth`, block: `start`})
 button.addEventListener('click', function () {
 this.textContent = 'Awesome!'
     this.style.backgroundColor = '#a5a728ff'
