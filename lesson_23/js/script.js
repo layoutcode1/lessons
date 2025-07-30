@@ -75,7 +75,7 @@ const items = document.querySelectorAll('.item')
 const button = document.getElementById('switchoverBtn')
 setTimeout(() => {
     button.scrollIntoView({ behavior: 'smooth', block: 'start' })
-}, 100)
+}, 150)
 button.addEventListener('click', function () {
 this.textContent = 'Awesome!'
     this.style.backgroundColor = '#a5a728ff'
