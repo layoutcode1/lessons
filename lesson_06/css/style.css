@@ -177,8 +177,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     box-shadow:
-    inset -5em 1em #4b5057,
-    inset 5em 2em #a35d0200, 
+    inset -5em 1em #1c2e49,
     inset 5em -2em #5045079f;
     color: #a79ccc;
 } 
@@ -253,4 +252,5 @@ body {
     text-align: center; 
     background-color:#3d3702cb;
     box-shadow: -3.3em 0 0.9em #dada0a;
+
 }
