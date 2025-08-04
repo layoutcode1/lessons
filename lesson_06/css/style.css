@@ -1,0 +1,256 @@
+@import url("reset.css");
+@import url("fonts.css");
+body {
+    font-family: "Montserrat", sans-serif;
+    width: 100%
+}
+.wrapper{
+    min-height: 100%;
+    overflow: clip; 
+}
+.header {
+    text-align: center;
+    background-color: #6b8368d2;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.header h1 {max-width: 1272px; 
+    margin: 0 auto; 
+    font-weight: 500;
+    font-size: 25px;
+    color: #cde403c5;
+    text-shadow: #070707 2px 2px 0.2rem;
+}
+
+/* ======================ecobazar================================= */
+
+.section-ecobazar{
+    margin-inline: auto;
+    padding-inline: 15px;  
+    max-width: 648px;  
+    line-height: 150%; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;  
+}
+.content-text{
+    display: inline-block; 
+}
+.part-first, .part-second{ 
+    margin-bottom: 20px;
+} 
+.item {
+    line-height: 1.5;
+    margin-right: 8px;
+    background: url("../img/check01.png") 0 0 / 20px no-repeat;
+    min-height: 20px;
+    padding-left: 28px;
+    margin-bottom: 14px;
+}    
+.part-third{
+    margin-bottom: 30px;
+}
+
+/* ======================hydra=============================================*/
+
+.section-hydra{
+    margin-inline: auto; 
+    padding-inline: 15px; 
+    padding: 40px 0 60px 0; 
+    background-color: #302c42;
+    line-height: 1.5;  
+    font-size: 16px;
+    color: #ffffff;
+} 
+.block-info{
+    max-width: 1272px;
+    margin: 0 auto;  
+}  
+.info-box ul{
+    box-shadow: 0px 4px 4px #c0b7e803;
+    border-radius: 90px;
+    background: radial-gradient(circle, #3a3456 0%, #211e2e 95%);
+    padding: 20px 0;   
+    margin-bottom: 94px;
+}
+.block-info ul li{
+    display: inline-block; 
+    max-width: 424px;   
+    line-height: 1.5;
+}
+.info-box p{
+    line-height: 1.5;   
+    font-weight: 700;
+    font-size: 24px;
+}
+.info-box a{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #ffffffcc;
+}
+.link-location{
+    background: url(../img/location-icon.png) -1% 50% no-repeat;
+    background-size: 60px 60px;
+    padding: 20px 60px; 
+    vertical-align: middle; 
+    margin-left: 55px;   
+    border-right: 1px solid #c0b7e854;  
+}
+.link-phone{ 
+    background: url(../img/phone-call-icon.png) -1% 55% no-repeat;
+    background-size: 50px 50px;
+    border-right: 1px solid #c0b7e854;
+    padding: 20px 70px;  
+    vertical-align: middle;
+    margin-left: 55px;  
+}
+.link-message{
+    background: url(../img/mail-icon.png) -1% 50% no-repeat;
+    background-size: 60px 60px;
+    padding: 20px 70px;  
+    vertical-align: middle;
+    margin-left: 55px; 
+}
+
+/* ==================hydra==block-about============================== */
+
+.block-about{
+    background: url(../img/decor_group.png) 50% 15%  no-repeat;
+    max-width: 1272px;
+    margin: 0 auto;  
+}
+.hydra-image {
+    display: inline-block;    
+    margin-right: 108px;
+    max-width: 520px;  
+    overflow: hidden; 
+    border-radius: 44% 20% 44% 20% / 44% 20% 44% 20%;
+    background-color: #a3a3a3;
+} 
+.hydra-content{
+    display: inline-block;
+    vertical-align: top;  
+    max-width: 630px; 
+    padding: 55px 0; 
+}
+.hydra-title{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.hydra-subtitle{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 52.5px;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    color: #ffffffcc; 
+}
+.hydra-text{
+    display: block;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 28px;
+    color: #ffffffcc;
+}
+.hydra-button{
+    display: inline-block;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    padding: 17px 40px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #343045;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+/* =======================practice============================================== */
+.container-practice{
+    margin-inline: auto;
+    padding-inline: 15px;
+    width: 100%; 
+    background: url("../img/StockCake244.jpg") no-repeat 40% 10% / 800px;  
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow:
+    inset -5em 1em #4b5057,
+    inset 5em 2em #a35d0200, 
+    inset 5em -2em #5045079f;
+    color: #a79ccc;
+} 
+.section-squares ul li{
+    display: inline-block;
+    margin: 35px 135px;
+} 
+.section-squares ul{
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0;
+    padding: 50px;
+} 
+.section-squares li{
+    font-size: 29px;
+    padding: 100px;
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+ li:nth-child(3n) {
+    margin-right: 0;
+} 
+.square-A{
+    border: 46px dashed #042642;
+    background: linear-gradient(-15.95deg, #886f3ad2 20%, #2b3355 100%); 
+    rotate: -9deg;
+    border-left:#000000;   
+}
+.square-B{
+    border: 49px double #382d38;
+    outline-offset: -95px; 
+    outline: 60px dashed #2e2e47a9; 
+    color: #c8baf3; 
+}
+.square-C{
+    border: 55px double #252729;
+    rotate: 9deg;
+    background: linear-gradient(-55.95deg, #22212138 0%, #000000 100%); 
+}
+.square-E{
+    border: 49px double #1e263fd0;
+    outline-offset: -95px;
+    outline: 44px dashed #262746;  
+    rotate: 9deg;
+}
+.square-F{
+    background-color: #27221fb9;    
+    outline: 36px dashed #1e1f20; 
+    border: #272829ee 29px dashed;   
+    border-radius: 50%; 
+    box-shadow: inset 0 -3em 3em #5252554d,
+    0 0 0 31px #353434, 
+    0.3em 0.3em 5em #805c0fe7; 
+    color: #1e1f20;
+}
+.square-R{
+    rotate: -9deg;
+    overflow: clip;
+    border: 54px dashed #1c3d63;
+    background-color: #24374b80;
+}
+.footer {
+    padding: 18px 0;
+    font-weight: 700;
+    font-size: 25px;
+    color: #918f4d;  
+    text-shadow: #000000 2px 2px 0.2rem;
+    text-align: center; 
+    background-color:#3d3702cb;
+    box-shadow: -3.3em 0 0.9em #dada0a;
+}
