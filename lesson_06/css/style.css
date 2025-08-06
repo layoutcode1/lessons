@@ -128,12 +128,19 @@ body {
     overflow: hidden; 
     border-radius: 44% 20% 44% 20% / 44% 20% 44% 20%;
     background-color: #a3a3a3;
+    aspect-ratio: 524 / 557;
 } 
+.hydra-image img{
+    aspect-ratio: 524 / 557;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .hydra-content{
     display: inline-block;
     vertical-align: top;  
     max-width: 630px; 
-    padding: 55px 0; 
+    padding: 0 15px 0 15px;
 }
 .hydra-title{
     font-size: 36px;
@@ -177,14 +184,22 @@ body {
     background-size: cover;
     background-attachment: fixed;
     box-shadow:
-    inset -5em 1em #1c2e49,
-    inset 5em -2em #5045079f;
-    color: #a79ccc;
+    inset -3em 1em #2f325a,
+    inset 2em -2em #5045079f;
+    color: #8b99e2f8;
+    font-style: oblique;
 } 
 .section-squares ul li{
     display: inline-block;
-    margin: 35px 135px;
+    margin: 35px 120px;
+    width: 270px;
 } 
+@media (max-width: 768px) {
+     .section-squares ul li {
+         margin: 20px 10px;
+         width: 48%;
+     }
+ }
 .section-squares ul{
     margin: 0 auto;
     overflow: hidden;
@@ -195,7 +210,6 @@ body {
 .section-squares li{
     font-size: 29px;
     padding: 100px;
-    display: inline-block;
     width: 270px;
     height: 270px;
     vertical-align: top;
@@ -208,13 +222,12 @@ body {
     border: 46px dashed #042642;
     background: linear-gradient(-15.95deg, #886f3ad2 20%, #2b3355 100%); 
     rotate: -9deg;
-    border-left:#000000;   
+    border-left: #000000;   
 }
 .square-B{
     border: 49px double #382d38;
     outline-offset: -95px; 
     outline: 60px dashed #2e2e47a9; 
-    color: #c8baf3; 
 }
 .square-C{
     border: 55px double #252729;
@@ -234,12 +247,10 @@ body {
     border-radius: 50%; 
     box-shadow: inset 0 -3em 3em #5252554d,
     0 0 0 31px #353434, 
-    0.3em 0.3em 5em #805c0fe7; 
-    color: #1e1f20;
+    0.3em 0.3em 2em #805c0fe7; 
 }
 .square-R{
     rotate: -9deg;
-    overflow: clip;
     border: 54px dashed #1c3d63;
     background-color: #24374b80;
 }
@@ -251,6 +262,6 @@ body {
     text-shadow: #000000 2px 2px 0.2rem;
     text-align: center; 
     background-color:#3d3702cb;
-    box-shadow: -3.3em 0 0.9em #dada0a;
-
+    box-shadow: -2.4em 0 0.9em #dada0a;
 }
+
