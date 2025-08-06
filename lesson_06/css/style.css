@@ -194,9 +194,9 @@ body {
     margin: 35px 120px;
     width: 270px;
 } 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
      .section-squares ul li {
-         margin: 20px 10px;
+         margin: 25px 10px;
          width: 48%;
      }
  }
@@ -264,4 +264,5 @@ body {
     background-color:#3d3702cb;
     box-shadow: -2.4em 0 0.9em #dada0a;
 }
+
 
