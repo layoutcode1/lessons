@@ -118,7 +118,7 @@ body {
 
 .block-about{
     background: url(../img/decor_group.png) 50% 15%  no-repeat;
-    max-width: 1272px;
+    max-width: 1310px;
     margin: 0 auto;  
 }
 .hydra-image {
@@ -142,6 +142,7 @@ body {
     vertical-align: top;  
     max-width: 630px; 
     padding: 0 15px 0 15px;
+    border-radius: 44% 20% 44% 20% / 44% 20% 44% 20%; 
 }
 .hydra-title{
     font-size: 36px;
@@ -197,7 +198,7 @@ body {
 } 
 @media (max-width: 760px) {
      .section-squares ul li {
-         margin: 25px 10px;
+         margin: 25px 20px;
          width: 48%;
      }
  }
@@ -265,6 +266,7 @@ body {
     background-color:#3d3702cb;
     box-shadow: -2.4em 0 0.9em #dada0a;
 }
+
 
 
 
