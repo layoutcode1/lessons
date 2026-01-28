@@ -47,7 +47,7 @@ body{
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 100px;
+        line-height: 1.5;
         margin-bottom: 10px;
         position: relative;
         letter-spacing: 0.2px;
@@ -183,3 +183,4 @@ h3 {
     background-color: #3f3c46; 
 
 }
+
