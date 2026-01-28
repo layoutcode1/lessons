@@ -10,7 +10,7 @@ body{
 }
 .header h1 {
     font-weight: 700;
-    font-size: 35px; 
+    font-size: 45px; 
     color: #231F8B;
     text-shadow: #000 2px 2px 3.2px;
 }
@@ -75,7 +75,7 @@ p::after{
 }
 .main-option{
     width: 25%;
-    padding: 15px 15px;
+    padding: 0 15px 0 15px;
     display: inline-block; 
     vertical-align: top;
 }  
@@ -176,11 +176,12 @@ h3 {
 .footer {
     padding: 8px 0;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     color: #04185c; 
     text-shadow: #000 2px 2px 3.2px;
     text-align: center;
     background-color: #3f3c46; 
 
 }
+
 
